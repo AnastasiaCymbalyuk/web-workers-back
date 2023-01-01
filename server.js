@@ -1,7 +1,7 @@
 /* eslint-disable no-plusplus */
 const http = require('http');
 
-const port = process.env.PORT || 7070;
+const port = process.env.PORT || 8080;
 const Koa = require('koa');
 const koaBody = require('koa-body');
 const cors = require('koa2-cors');
