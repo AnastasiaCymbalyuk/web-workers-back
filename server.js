@@ -1,5 +1,7 @@
 /* eslint-disable no-plusplus */
 const http = require('http');
+
+const port = process.env.PORT || 7070;
 const Koa = require('koa');
 const koaBody = require('koa-body');
 const cors = require('koa2-cors');
@@ -7,7 +9,6 @@ const Router = require('koa-router');
 const slow = require('koa-slow');
 const faker = require('faker');
 
-const port = process.env.PORT || 8080;
 const app = new Koa();
 const server = http.createServer(app.callback());
 const router = new Router();
