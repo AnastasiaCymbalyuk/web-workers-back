@@ -1,0 +1,32 @@
+{
+  "name": "web-workers-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "forever server.js"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "forever": "^4.0.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-router": "^10.0.0",
+    "koa-slow": "^2.1.0",
+    "koa2-cors": "^2.0.6",
+    "eslint": "^7.30.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "uuid": "^8.3.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnastasiaCymbalyuk/web-workers-back.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AnastasiaCymbalyuk/web-workers-back/issues"
+  },
+  "homepage": "https://github.com/AnastasiaCymbalyuk/web-workers-back#readme"
+}
