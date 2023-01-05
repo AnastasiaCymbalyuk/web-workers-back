@@ -8,6 +8,7 @@ const cors = require('koa2-cors');
 const Router = require('koa-router');
 const slow = require('koa-slow');
 const faker = require('faker');
+faker.setLocale('ru');
 
 const app = new Koa();
 const server = http.createServer(app.callback());
